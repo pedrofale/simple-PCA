@@ -4,7 +4,7 @@ This repository serves as a way of complementing my study of the workings of Pri
 
 ## `pca_simple.py` 
 A script that reads a .txt file which contains data. Each data pattern is assumed to be a line in the file. The different dimensions of the data are assumed to be separated by a space or a tab. `data.txt` is an example data file.
-The script will then perform a Principal Component Analysis (PCA) on the read data and print out the results from each computation, as such:
+The script will then perform PCA on the read data and print out the results from each computation, as such:
 
 1. The read data;
 2. The mean of the data and the centered data;
