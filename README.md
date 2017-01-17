@@ -1,5 +1,8 @@
 # simple-PCA
 
+This repository serves as a way of complementing my study of the workings of Principal Component Analysis (PCA). 
+
+## `pca_simple.py` 
 A script that reads a .txt file which contains data. Each data pattern is assumed to be a line in the file. The different dimensions of the data are assumed to be separated by a space or a tab. `data.txt` is an example data file.
 The script will then perform a Principal Component Analysis (PCA) on the read data and print out the results from each computation, as such:
 
@@ -14,3 +17,9 @@ The script will then perform a Principal Component Analysis (PCA) on the read da
 9. The reconstruction error and its variance.
 
 Usage: `python pca_simple.py [filename].txt`
+
+
+## `image_pca.py` 
+A script that uses the same functions as `pca_simple.py` but applies them to image compression. It is setup to load .jpg images from the `/faces/` folder.
+
+Usage: `python image_pca.py`
